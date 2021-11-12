@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <form action="/" method="POST">
+        <label for="weight">Weight (kg):</label>
+        <input type="number" name="weight" id="weight" min="0" step="0.01" value="<?php echo $weight; ?>">
+        <br>
+        <label for="height">Height (m):</label>
+        <input type="number" name="height" id="height" min="0" step="0.01" value="<?php echo $height; ?>">
+        <br>
+        <input type="submit" name="submit" value="Calculate">
+    </form>
+
+</body>           
+</html>
